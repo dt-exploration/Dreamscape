@@ -24,12 +24,12 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    if(!isset($_POST["gender"])) {
+    if (!isset($_POST["gender"])) {
       echo "<br>Selektuj jebenu optziju ";
       exit();
     }
 
-    if($_POST["gender"] == 2 ) {
+    if ($_POST["gender"] == 2 ) {
         header("Location: http://www.xvideos.com");
         exit();
     }
@@ -47,8 +47,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     {
         public function __construct ($ime_param, $broj_karaktera_param)
         {
-            $this->ime=$ime_param;
-            $this->broj_karaktera=$broj_karaktera_param;
+            $this->ime = $ime_param;
+            $this->broj_karaktera = $broj_karaktera_param;
         }
         public function display()
         {
@@ -89,8 +89,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     {
         public function __construct ($ime_param, $broj_karaktera_param)
         {
-            $this->ime=$ime_param;
-            $this->broj_karaktera=$broj_karaktera_param;
+            $this->ime = $ime_param;
+            $this->broj_karaktera = $broj_karaktera_param;
         }
         public function display()
         { ?>
@@ -126,8 +126,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     {
         public function __construct ($ime_param, $broj_karaktera_param)
         {
-            $this->ime=$ime_param;
-            $this->broj_karaktera=$broj_karaktera_param;
+            $this->ime = $ime_param;
+            $this->broj_karaktera = $broj_karaktera_param;
         }
         public function display()
         {

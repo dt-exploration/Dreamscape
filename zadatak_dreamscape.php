@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       exit();
     }
 
-    if ($_POST["gender"] == 2 ) {
+    if ($_POST["gender"] == 2) {
         header("Location: http://www.xvideos.com");
         exit();
     }
@@ -156,23 +156,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     }
 
-    $wolf=new AsciiVukovi("fix", 600);
-    $pig=new AsciiSvinje("rafa", 500);
-    $bird=new AsciiPtice("pedro", 400);
+    $wolf = new AsciiVukovi("fix", 600);
+    $pig = new AsciiSvinje("rafa", 500);
+    $bird = new AsciiPtice("pedro", 400);
 
-    for($i=0; $i < $_POST["wolf"]; $i++) {
+    for ($i = 0; $i < $_POST["wolf"]; $i++) {
         $wolf->display();
     }
 
-    for($j=0; $j < $_POST["pig"]; $j++) {
+    for ($j = 0; $j < $_POST["pig"]; $j++) {
         $pig->display();
     }
 
-    for($k=0; $k < $_POST["bird"]; $k++) {
+    for ($k = 0; $k < $_POST["bird"]; $k++) {
         $bird->display();
     }
 
-   $sum=$i*$wolf->getBrojKaraktera() + $j*$pig->getBrojKaraktera() + $k*$bird->getBrojKaraktera();
+   $sum = $i*$wolf->getBrojKaraktera() + $j*$pig->getBrojKaraktera() + $k*$bird->getBrojKaraktera();
    echo "Ukupan broj karaktera za crtanje slika: <b>$sum<b>";
 
 }

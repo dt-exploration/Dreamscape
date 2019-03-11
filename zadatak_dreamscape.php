@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if ($_POST["gender"] == 2) {
-        header("Location: http://www.xvideos.com");
+        header("Location: http://www.");
         exit();
     }
 

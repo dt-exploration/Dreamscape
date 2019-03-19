@@ -2,8 +2,8 @@
 <html>
 <body>
 
-<p>Ponudjeni su sledeci ascii graficki objekti: Filip Wolf, Rafa Gitza, Pedro Ptitza <p>
-<p>Molimo unesite koliko ponudjenih grafickih objekata zelite da vidite: </p>
+<p>Ponudjeni su sledeci ascii graficki objekti: Filip Wolf, Rafa Gitza, Pedro Ptitza<p>
+<p>Molimo unesite koliko ponudjenih grafickih objekata zelite da vidite:</p>
 
 </pre>
   <form action="zadatak_dreamscape.php" method="POST">
@@ -14,7 +14,7 @@
   Broj Pedrova:<br>
   <input type="text" name="bird"><br>
 
-  <p>Da li sam spreman za ludilo ? </p>
+  <p>Da li sam spreman za ludilo ?</p>
   <input type="radio" name="gender" value="1"> Yesam<br>
   <input type="radio" name="gender" value="2"> Ruzan sam i nisam<br><br>
   <input type="submit" value="Let's fucking rave">

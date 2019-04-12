@@ -172,7 +172,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $bird->display();
     }
 
-   $sum = $i*$wolf->getBrojKaraktera() + $j*$pig->getBrojKaraktera() + $k*$bird->getBrojKaraktera();
+   $sum = $i * $wolf->getBrojKaraktera() + $j * $pig->getBrojKaraktera() + $k * $bird->getBrojKaraktera();
    echo "Ukupan broj karaktera za crtanje slika: <b>$sum<b>";
 
 }
